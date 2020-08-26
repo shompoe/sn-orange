@@ -20,7 +20,7 @@ If you are struggling to create your own theme then try these steps.
    7. Click into the theme you like.
    8. Click into dist.
 
-9. Open dist.css file and start tweaking it around. Each time you save changes, re-apply the theme in Standard Notes to see the effect.
+9. Open dist.css and start tweaking it around. Each time you save changes, re-apply the theme in Standard Notes to see the effect.
 3. Fork the repository of the same theme in Github to your personal account.
 4. Rename the repository.
 5. Click into dist folder and replace dist.css with your modified version.
@@ -54,4 +54,4 @@ If you are struggling to create your own theme then try these steps.
     },
     "statusBar": "dark-content"
     }
-```
+   ```
