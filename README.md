@@ -53,5 +53,5 @@ If you are struggling to create your own theme then try these steps.
       "border_color": "#D79921"
     },
     "statusBar": "dark-content"
-  }
+    }
 ```
