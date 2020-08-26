@@ -108,7 +108,7 @@
 :root #notes-column .note .note-flags .flag.warning,
 :root .notes .note .note-flags .flag.warning {
   background-color: var(--archived-color) !important;
-  color: var(-background-1);
+  color: var(--background-1);
 }
 :root #notes-column .note .note-flags .flag.neutral,
 :root .notes .note .note-flags .flag.neutral {
