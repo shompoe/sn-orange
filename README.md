@@ -28,8 +28,8 @@ If you are struggling to create your own theme then try these steps.
 7. Go over to releases in your repository and create a new release with the new version number.
 8. Check out the Standard Notes documentation on [publishing extensions](https://docs.standardnotes.org/extensions/publishing)
 
-Your json file should looke something like this:
-'''
+Your json file should look something like this:
+
 ---
 metatype: json
 ---
@@ -54,4 +54,4 @@ metatype: json
     },
     "statusBar": "dark-content"
   }
-'''
+
