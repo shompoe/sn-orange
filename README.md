@@ -1,5 +1,5 @@
 # Tangerine Theme
-I created this theme to tweak some of the colours from ![Gruvbox Dark Theme](https://github.com/christianhans/sn-gruvbox-dark-theme) and to give note flags coloured backgrounds in desktop.
+I created this theme to tweak some of the colours from [Gruvbox Dark Theme](https://github.com/christianhans/sn-gruvbox-dark-theme) and to give note flags coloured backgrounds in desktop.
 
 ![preview](preview.png)
 
@@ -26,7 +26,7 @@ If you are struggling to create your own theme then try these steps.
 5. Click into dist folder and replace dist.css with your modified version.
 6. Edit references to then repository name and version number (make a new version) in package.json and package-lock.json
 7. Go over to releases in your repository and create a new release with the new version number.
-8. Check out the Standard Notes documentation on ![publishing extensions](https://docs.standardnotes.org/extensions/publishing)
+8. Check out the Standard Notes documentation on [publishing extensions](https://docs.standardnotes.org/extensions/publishing)
 
 Your json file should looke something like this:
 '''
