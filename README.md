@@ -24,23 +24,23 @@ If you are struggling to create your own theme then try these steps.
 3. Fork the repository of the same theme in Github to your personal account.
 4. Rename the repository.
 5. Click into dist folder and replace dist.css with your modified version.
-6. Edit references to then repository name and version number (make a new version) in package.json and package-lock.json
+6. Edit references to the repository name and version number (make a new version) in package.json and package-lock.json
 7. Go over to releases in your repository and create a new release with the new version number.
-8. Check out the Standard Notes documentation on [publishing extensions](https://docs.standardnotes.org/extensions/publishing)
+8. Check out the Standard Notes documentation on [publishing extensions](https://docs.standardnotes.org/extensions/publishing).
 
-Your json file should look something like this:
+   Your .json file should look something like this:
+   ```
+   ---
+   metatype: json
+   ---
 
----
-metatype: json
----
-
-  {
-    "identifier": "your-domain-name.your-theme",
-    "name": "Name of your theme",
-    "content_type": "SN|Theme",
-    "area": "themes",
-    "description": "Short description of your theme.",
-    "version": "v2.0.0",
+     {
+       "identifier": "your-domain-name.your-theme",
+       "name": "Name of your theme",
+       "content_type": "SN|Theme",
+       "area": "themes",
+       "description": "Short description of your theme.",
+       "version": "v2.0.0",
     "url": "https://cdn.jsdelivr.net/gh/your-github-user-id/repository-name-of-your-theme@master/dist/dist.css",
     "download_url": "https://github.com/your-github-user-id/repository-name-of-your-theme/archive/2.0.0.zip",
     "marketing_url": "https://github.com/your-github-user-id/repository-name-of-your-theme",
@@ -54,4 +54,4 @@ metatype: json
     },
     "statusBar": "dark-content"
   }
-
+```
