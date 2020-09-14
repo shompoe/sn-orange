@@ -1,11 +1,6 @@
 # Tangerine Theme
 I created this theme to tweak some colours from [Gruvbox Dark Theme](https://github.com/christianhans/sn-gruvbox-dark-theme).
 
-- Modified the background shadings to give clearer differentiation of background elements.
-- Changed the secondary, tertiary, etc. colours to compliment the primary orange colour.
-- Restored the coloured backrounds of note flags (Archived, Deleted, Protected, etc) in the note column.
-- Fixed the gradient background for selection in tag/view column.
-
 ![preview](preview.png)
 
 Installation is from https://listed.to/p/BeTWf6qWyC
