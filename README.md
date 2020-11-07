@@ -3,7 +3,7 @@ I created this theme to tweak some colours from [Gruvbox Dark Theme](https://git
 
 ![preview](preview.png)
 
-Installation is from https://listed.to/p/BeTWf6qWyC
+Installation is from https://listed.to/p/yEcea4tAcs
 
 # Notes for creating your own theme
 
