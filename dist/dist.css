@@ -23,7 +23,12 @@
   --sn-stylekit-danger-color: var(--danger-color);
   --sn-stylekit-danger-contrast-color: var(--foreground-1);
 
-  --sn-stylekit-shadow-color: var(--background-2); 
+  --sn-desktop-titlebar-bg-color: var(--background-1);
+  --sn-desktop-titlebar-border-color: var(--border-color);
+  --sn-desktop-titlebar-ui-color: var(--foreground-1);
+  --sn-desktop-titlebar-ui-hover-color: var(--sn-stylekit-info-color);
+
+  --sn-stylekit-shadow-color: var(--background-1); 
   --sn-stylekit-background-color: var(--background-1);
   --sn-stylekit-foreground-color: var(--foreground-1);
   --sn-stylekit-border-color: var(--border-color);
@@ -46,60 +51,10 @@
   
   --sn-stylekit-scrollbar-track-border-color: var(--border-color);
   --sn-stylekit-scrollbar-thumb-color: var(--sn-stylekit-info-color);
-}
 
-
-/* NOTE COLUMN TEXT COLOUR
-============================================ */
-
-:root #notes-column .note .name {
-  color: var(--foreground-3);
-}
-
-/* TAG/VIEW COLUMN TEXT COLOUR
-============================================== */
-
-:root .title {
-  color: var(--foreground-3);
-}
-
-
-/* MAINTAIN FLAG COLOURS WHEN NOTE SELECTED 
-============================================== */
-
-:root #notes-column .note .note-flags .flag.info,
-:root .notes .note .note-flags .flag.info {
-  background-color: var(--info-color);
-  color: var(--background-1);
-}
-:root #notes-column .note .note-flags .flag.success,
-:root .notes .note .note-flags .flag.success {
-  background-color: var(--success-color);
-  color: var(--background-1);
-}
-:root #notes-column .note .note-flags .flag.warning,
-:root .notes .note .note-flags .flag.warning {
-  background-color: var(--warning-color);
-  color: var(--background-1);
-}
-:root #notes-column .note .note-flags .flag.neutral,
-:root .notes .note .note-flags .flag.neutral {
-  background-color: var(--neutral-color);
-  color: var(--background-1);
-}
-:root #notes-column .note .note-flags .flag.danger,
-:root .notes .note .note-flags .flag.danger {
-  background-color: var(--danger-color);
-  color: var(--background-1);
-}
-
-
-/* OVERRIDE BACKGROUND OF SELECTED NOTE
-===================================================== */ 
-
-:root #notes-column .note.selected {
-  background: none;
-  background-color: var(--border-color);
+  --sn-stylekit-menu-border: 1px solid var(--foreground-2);
+  --sn-stylekit-grey-4-opacity-variant: var(--background-2);
+  --sn-stylekit-grey-5: var(--background-2);
 }
 
 /* HEADING COLOUR IN EDITOR 
@@ -114,4 +69,4 @@
   color: var(--info-color);
 } 
 
-
+/*# sourceMappingURL=dist.css.map */
