@@ -1,9 +1,8 @@
 # Tangerine Theme
-I created this theme to tweak some colours from [Gruvbox Dark Theme](https://github.com/christianhans/sn-gruvbox-dark-theme).
 
-![preview](preview.png)
+![preview](screenshot.png)
 
-Installation is from https://listed.to/p/yEcea4tAcs
+New installation link for SN 3.9.15 > is from https://listed.to/p/vclyVIoc6P
 
 # Notes for creating your own theme
 
