@@ -1,4 +1,4 @@
-# Tangerine Theme
+# Preview
 
 ![preview](screenshot.png)
 
