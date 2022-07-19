@@ -4,7 +4,6 @@
   --border-color: #505050;
   --foreground-1: #e0dab1;
   --foreground-2: #838383;
-  --foreground-3: #a8a8a8;
   --info-color: #d79921;
   --neutral-color: #928374;
   --danger-color: #d7215f;
@@ -53,6 +52,13 @@
   --sn-stylekit-scrollbar-thumb-color: var(--sn-stylekit-info-color);
 
   --sn-stylekit-menu-border: 1px solid var(--foreground-2);
+  
+  --sn-stylekit-passive-color-0: var(--foreground-2);   
+  --sn-stylekit-passive-color-3: var(--background-1);
+  --sn-stylekit-passive-color-4: var(--background-2);
+  --sn-stylekit-passive-color-4-opacity-variant: var(--background-2);
+  --sn-stylekit-passive-color-5: var(--background-2);
+  
   --sn-stylekit-grey-4-opacity-variant: var(--background-2);
   --sn-stylekit-grey-5: var(--background-2);
 }
