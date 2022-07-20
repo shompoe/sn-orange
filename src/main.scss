@@ -1,7 +1,7 @@
 :root {
 
-  --background-1: #000000;
-  --background-2: #151515;
+  --background-1: #101010;
+  --background-2: #202020;
   --border-color: #303030;
   --foreground-1: #b0aa91;
   --foreground-2: #838383;
@@ -36,25 +36,27 @@
   --sn-stylekit-secondary-background-color: var(--background-2);
   --sn-stylekit-secondary-foreground-color: var(--foreground-1);
 
-/* Hover on Alternative Rich Text Buttons & Markdown Basic Selected View  */
-  --sn-stylekit-info-contrast-color: var(--foreground-1);
+/* Hover on Alternative Rich Text Buttons & Basic Markdown Basic View
+   Also used for text on light grey buttons & Accented buttons  */
+  --sn-stylekit-info-contrast-color: var(--background-1);
+
+/* Can be used for button text in preferences
+  --sn-stylekit-neutral-contrast-color: white;
+  --sn-stylekit-success-contrast-color: white;
+  --sn-stylekit-warning-contrast-color: white;
+  --sn-stylekit-danger-contrast-color: white;
 
 
 /* ????????????  */
-  --sn-stylekit-neutral-contrast-color: purple;
-  --sn-stylekit-success-contrast-color: purple;
-  --sn-stylekit-warning-contrast-color: purple;
-  --sn-stylekit-danger-contrast-color: purple;
   --sn-desktop-titlebar-bg-color: var(--purple);
   --sn-desktop-titlebar-border-color: var(--purple);
   --sn-desktop-titlebar-ui-color: var(--purple);
-
   --sn-stylekit-secondary-contrast-border-color: var(--border-color);
   --sn-stylekit-scrollbar-track-border-color: var(--border-color);
   --sn-stylekit-menu-border: 1px solid var(--border-color);
 
 
-/* Highlighted view ? */
+/* Selected view ? */
   --sn-stylekit-passive-color-4: var(--background-1);
   --sn-stylekit-passive-color-5: var(--background-1);
  
