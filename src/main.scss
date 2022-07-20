@@ -1,17 +1,16 @@
 :root {
 
---tx: purple;
   --background-1: #000000;
   --background-2: #151515;
   --border-color: #303030;
   --foreground-1: #b0aa91;
   --foreground-2: #838383;
   
-  --sn-stylekit-info-color: #a67800;
-  --sn-stylekit-neutral-color: #7c7c7c;
-  --sn-stylekit-success-color: #2B9612;
-  --sn-stylekit-warning-color: #f6a200;
-  --sn-stylekit-danger-color: #F80324;
+  --sn-stylekit-info-color: #a07000;
+  --sn-stylekit-neutral-color: var(--foreground-2); 
+  --sn-stylekit-success-color: #00a000;
+  --sn-stylekit-warning-color: #a07000;
+  --sn-stylekit-danger-color: #a00000;
   
   --sn-desktop-titlebar-ui-hover-color: var(--sn-stylekit-info-color);
 
@@ -37,20 +36,21 @@
   --sn-stylekit-secondary-background-color: var(--background-2);
   --sn-stylekit-secondary-foreground-color: var(--foreground-1);
 
-/* ????????????  */
-  --sn-stylekit-info-contrast-color: tx;
-  --sn-stylekit-neutral-contrast-color: tx;
-  --sn-stylekit-success-contrast-color: tx;
-  --sn-stylekit-warning-contrast-color: tx;
-  --sn-stylekit-danger-contrast-color: tx;
+/* Hover on Alternative Rich Text Buttons & Markdown Basic Selected View  */
+  --sn-stylekit-info-contrast-color: var(--foreground-1);
 
-  --sn-desktop-titlebar-bg-color: var(--tx);
-  --sn-desktop-titlebar-border-color: var(--tx);
-  --sn-desktop-titlebar-ui-color: var(--tx);
+
+/* ????????????  */
+  --sn-stylekit-neutral-contrast-color: purple;
+  --sn-stylekit-success-contrast-color: purple;
+  --sn-stylekit-warning-contrast-color: purple;
+  --sn-stylekit-danger-contrast-color: purple;
+  --sn-desktop-titlebar-bg-color: var(--purple);
+  --sn-desktop-titlebar-border-color: var(--purple);
+  --sn-desktop-titlebar-ui-color: var(--purple);
 
   --sn-stylekit-secondary-contrast-border-color: var(--border-color);
   --sn-stylekit-scrollbar-track-border-color: var(--border-color);
- 
   --sn-stylekit-menu-border: 1px solid var(--border-color);
 
 
@@ -67,7 +67,7 @@
 
 /* Basic Markdown Buttons */ 
   --sn-stylekit-secondary-contrast-background-color: var(--background-2);
-  --sn-stylekit-secondary-contrast-foreground-color: var(--foreground-2);
+  --sn-stylekit-secondary-contrast-foreground-color: var(--foreground-1);
   
 /* Editor panel and some editor elements */
   --sn-stylekit-editor-background-color: var(--background-1);
