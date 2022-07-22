@@ -6,11 +6,11 @@
   --foreground-1: #d0cab1;
   --foreground-2: #838383;
   
-  --sn-stylekit-info-color: #a07000;
+  --sn-stylekit-info-color: #d09000;
   --sn-stylekit-neutral-color: var(--foreground-2); 
   --sn-stylekit-success-color: #00a000;
-  --sn-stylekit-warning-color: #a07000;
-  --sn-stylekit-danger-color: #a00000;
+  --sn-stylekit-warning-color: #d09000;
+  --sn-stylekit-danger-color: #d00000;
   
   --sn-desktop-titlebar-ui-hover-color: var(--sn-stylekit-info-color);
 
