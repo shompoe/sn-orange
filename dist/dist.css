@@ -3,7 +3,7 @@
   --background-1: #101010;
   --background-2: #202020;
   --border-color: #303030;
-  --foreground-1: #b0aa91;
+  --foreground-1: #d0cab1;
   --foreground-2: #838383;
   
   --sn-stylekit-info-color: #a07000;
@@ -38,12 +38,12 @@
 
 /* Hover on Alternative Rich Text Buttons & Basic Markdown Basic View
    Also used for text on light grey buttons & Accented buttons  */
-  --sn-stylekit-info-contrast-color: var(--background-1);
+  --sn-stylekit-info-contrast-color: black;
 
 /* Can be used for button text in preferences
-  --sn-stylekit-neutral-contrast-color: white;
-  --sn-stylekit-success-contrast-color: white;
-  --sn-stylekit-warning-contrast-color: white;
+  --sn-stylekit-neutral-contrast-color: black;
+  --sn-stylekit-success-contrast-color: black;
+  --sn-stylekit-warning-contrast-color: black;
   --sn-stylekit-danger-contrast-color: white;
 
 
