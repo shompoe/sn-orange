@@ -40,11 +40,11 @@
    Also used for text on light grey buttons & Accented buttons  */
   --sn-stylekit-info-contrast-color: black;
 
-/* Can be used for button text in preferences
+/* Can be used for button text in preferences */
   --sn-stylekit-neutral-contrast-color: black;
   --sn-stylekit-success-contrast-color: black;
   --sn-stylekit-warning-contrast-color: black;
-  --sn-stylekit-danger-contrast-color: white;
+  --sn-stylekit-danger-contrast-color: black;
 
 
 /* ????????????  */
