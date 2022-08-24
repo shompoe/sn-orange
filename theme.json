@@ -1,0 +1,24 @@
+---
+metatype: json
+---
+
+  {
+    "identifier": "io.shompoe.sunset",
+    "name": "Tangerine",
+    "content_type": "SN|Theme",
+    "area": "themes",
+    "description": "Dark theme for Standard Notes.",
+    "version": "v2.1.3",
+    "url": "https://cdn.jsdelivr.net/gh/shompoe/sn-tangerine-theme@master/dist/dist.css",
+    "download_url": "https://github.com/shompoe/sn-tangerine-theme/archive/2.1.3.zip",
+    "marketing_url": "https://github.com/shompoe/sn-tangerine-theme",
+    "latest_url": "https://listed.to/p/vclyVIoc6P",
+    "thumbnail_url": "https://raw.githubusercontent.com/shompoe/sn-tangerine-theme/master/screenshot.png",
+    "dock_icon": {
+      "type": "circle",
+      "background_color": "#D79921",
+      "foreground_color": "#076678",
+      "border_color": "#D79921"
+    },
+    "statusBar": "dark-content"
+  }
