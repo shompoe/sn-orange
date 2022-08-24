@@ -6,7 +6,7 @@
 
 Open Preferences and to to General, Advanced Settings. Scroll to the bottom, paste the link below and Install.
 
-New installation link for SN 3.9.15 > is from https://listed.to/p/vclyVIoc6P
+https://listed.to/p/vclyVIoc6P
 
 # Notes for creating your own theme
 
