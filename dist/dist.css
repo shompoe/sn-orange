@@ -8,12 +8,12 @@
   
  
   --sn-stylekit-neutral-color: var(--foreground-2); 
-  --sn-stylekit-neutral-contrast-color: black;			/* Button text in preferences*/
+  --sn-stylekit-neutral-contrast-color: black;			/* Button text in preferences */
  
   --sn-stylekit-info-color: #d09000;
   --sn-stylekit-info-color-darkened: purple;			/* No effect noted */ 
- --sn-stylekit-info-contrast-color: black;			/* Button text. Also used in alternative rich text and basic markdown editors */
-/*  --sn-stylekit-info-backdrop-color: 				Background of selected theme, Background of category selected in preferences*/
+  --sn-stylekit-info-contrast-color: black;			/* Button text. Also used in alternative rich text and basic markdown editors */
+/*--sn-stylekit-info-backdrop-color: 			  	   Background of selected theme, Background of category selected in preferences */
 
   --sn-stylekit-success-color: #00a000;
   --sn-stylekit-success-contrast-color: black;			/* Button text in preferences */
@@ -32,8 +32,8 @@
   --sn-stylekit-foreground-color: var(--foreground-1);		/* When hovering over menus/tags in note panel, Basic Markdown editor */
 
   --sn-stylekit-contrast-background-color: var(--background-2);		/* Title bar, selected note background */
-  --sn-stylekit-contrast-border-color: var(--border-color);		/* Title bar border  */
-  --sn-stylekit-contrast-foreground-color: var(--foreground-1);		/* Menu text and some icons etc.  */
+  --sn-stylekit-contrast-border-color: var(--border-color);		/* Title bar border */
+  --sn-stylekit-contrast-foreground-color: var(--foreground-1);		/* Menu text and some icons etc. */
 
   --sn-stylekit-secondary-background-color: var(--background-2);	/* View panel background colour */
   --sn-stylekit-secondary-foreground-color: var(--foreground-1);	/* View panel text colour */
@@ -63,8 +63,8 @@
 /*--sn-stylekit-passive-color-2:   		 		           Background to "Genereating Keys..." caption */
   --sn-stylekit-passive-color-3: var(--border-color);			/* Search modal border */ 
   --sn-stylekit-passive-color-4: purple					/* No noted effect */
-  --sn-stylekit-passive-color-4-opacity-variant: var(--border-color);	/* Tag background colour   */
-  --sn-stylekit-passive-color-5: purple;				/* No noted effect */
+  --sn-stylekit-passive-color-4-opacity-variant: var(--border-color);	/* Tag background colour */
+  --sn-stylekit-passive-color-5: var(--border-color);			/* Background of file upload status */
   --sn-stylekit-passive-color-6: purple;				/* No noted effect */
   --sn-stylekit-passive-color-super-light: purple;			/* No noted effect */
 		
