@@ -1,5 +1,5 @@
 {
-  "name": "sn-tangerine-theme",
+  "name": "sn-tangerine",
   "version": "2.1.5",
   "main": "dist/dist.css",
   "devDependencies": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/shompoe/sn-tangerine-theme.git"
+    "url": "git://github.com/shompoe/sn-tangerine.git"
   },
   "scripts": {
     "prepublishOnly": "npm run build",
