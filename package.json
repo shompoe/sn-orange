@@ -1,6 +1,6 @@
 {
-  "name": "sn-easypeeler",
-  "version": "3",
+  "name": "sn-oranges",
+  "version": "4",
   "main": "dist/dist.css",
   "devDependencies": {
     "grunt": "^1.0.1",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/shompoe/sn-easypeeler.git"
+    "url": "git://github.com/shompoe/sn-oranges.git"
   },
   "scripts": {
     "prepublishOnly": "npm run build",
