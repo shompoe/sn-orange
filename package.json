@@ -1,6 +1,6 @@
 {
-  "name": "sn-tangerine",
-  "version": "2.1.5",
+  "name": "sn-easypeeler",
+  "version": "3",
   "main": "dist/dist.css",
   "devDependencies": {
     "grunt": "^1.0.1",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/shompoe/sn-tangerine.git"
+    "url": "git://github.com/shompoe/sn-easypeeler.git"
   },
   "scripts": {
     "prepublishOnly": "npm run build",
