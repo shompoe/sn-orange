@@ -13,7 +13,7 @@
   --sn-stylekit-info-color: #d09000;
   --sn-stylekit-info-color-darkened: purple;			/* No effect noted */ 
   --sn-stylekit-info-contrast-color: black;			/* Button text */
-/*--sn-stylekit-info-backdrop-color: 				/* Background of selected theme and category in preferences*/
+  --sn-stylekit-info-backdrop-color: 	var(--background-3);			/* Background of selected theme and category in preferences*/
 
   --sn-stylekit-success-color: #00a000;
   --sn-stylekit-success-contrast-color: black;			/* Button text */
