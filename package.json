@@ -1,7 +1,7 @@
 {
-  "name": "sn-oranges",
-  "version": "4",
-  "main": "dist/dist.css",
+  "name": "sn-orange",
+  "version": "5",
+  "main": "index.css",
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-watch": "^1.0.0",
@@ -9,11 +9,11 @@
     "grunt-contrib-sass": "^1.0.0"
   },
   "sn": {
-    "main": "dist/dist.css"
+    "main": "index.css"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/shompoe/sn-oranges.git"
+    "url": "git://github.com/shompoe/sn-orange.git"
   },
   "scripts": {
     "prepublishOnly": "npm run build",
