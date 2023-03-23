@@ -1,6 +1,6 @@
 {
   "name": "sn-orange",
-  "version": "5",
+  "version": "5.1",
   "main": "index.css",
   "devDependencies": {
     "grunt": "^1.0.1",
